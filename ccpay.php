@@ -46,7 +46,35 @@ function ccInit(){
 		true // include in footer
 	);
 	
+	wp_register_script(
+		"ccdata",
+		plugin_dir_url(__FILE__)."lib/data.js",
+		array("jquery"),
+		"0.1",
+		true // include in footer
+	);
+	
+	wp_register_script(
+		"ccvalidate",
+		plugin_dir_url(__FILE__)."lib/validate.js",
+		array("jquery"),
+		"0.1",
+		true // include in footer
+	);
+	
+	wp_register_script(
+		"ccrender",
+		plugin_dir_url(__FILE__)."lib/render.js",
+		array("jquery"),
+		"0.1",
+		true // include in footer
+	);
+	
 	wp_enqueue_script("ccpay");
+	wp_enqueue_script("ccdata");
+	wp_enqueue_script("ccvalidate");
+	wp_enqueue_script("ccrender");
+
 	// load_plugin_textdomain()
 }
 
