@@ -10,7 +10,7 @@
  *
  * Plugin Name: Payment Plugin
  * Plugin URI: 
- * Description: Front-end Payment Module for WordPress
+ * Description: Front-end Payment Plugin for WordPress
  * Author: José Bernal, Trevor Uehlin, Jack Brainard
  * Author URI: https://clickpdx.com
  * Licence: GPLv2 or later
