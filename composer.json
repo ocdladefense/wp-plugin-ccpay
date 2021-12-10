@@ -1,0 +1,16 @@
+{
+    "name": "ocdladefense/wp-plugin-ccpay",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Ocdladefense\\WpPluginCcpay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "trevoruehlinx1",
+            "email": "trevoruehlinx1@gmail.com"
+        }
+    ],
+    "require": {}
+}
