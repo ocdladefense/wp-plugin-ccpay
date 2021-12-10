@@ -1,5 +1,5 @@
 {
-    "name": "ocdladefense/wp-plugin-ccpay",
+    "name": "ocdladefense/wp-plugin-ccpay-current",
     "type": "wordpress-plugin",
     "autoload": {
         "psr-4": {
