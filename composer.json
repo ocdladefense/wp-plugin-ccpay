@@ -6,11 +6,5 @@
             "Ocdladefense\\WpPluginCcpay\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "trevoruehlinx1",
-            "email": "trevoruehlinx1@gmail.com"
-        }
-    ],
     "require": {}
 }
